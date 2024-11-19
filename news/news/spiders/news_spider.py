@@ -7,7 +7,6 @@ from news.items import NewsItem
 
 class QuotesSpider(scrapy.Spider):
     name = "news"
-    # custom_settings = {'FEEDS': {'data/%(name)s/%(name)s_%(time)s.jsonl': {'format': 'jsonlines',}}}
 
     def start_requests(self):
         

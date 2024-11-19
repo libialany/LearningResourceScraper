@@ -13,7 +13,7 @@ SPIDER_MODULES = ["news.spiders"]
 NEWSPIDER_MODULE = "news.spiders"
 
 ITEM_PIPELINES = {
-#    'news.pipelines.NewsDBPipeline': 300,
+   'news.pipelines.NewsDBPipeline': 300,
    'news.pipelines.NewsDBNoDuplicatesPipeline': 301
 }
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
